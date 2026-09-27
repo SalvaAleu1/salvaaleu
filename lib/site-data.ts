@@ -1,12 +1,113 @@
 export const site = {
   name: "Salva Aleu",
   url: "https://salvaaleu.com",
-  email: "aleuwol12@gmail.com",
+  email: "aleu@salvaaleu.com",
+  emails: [
+    "aleu@salvaaleu.com",
+    "salva@yifoss.org",
+    "aleuwol12@gmail.com",
+  ],
+  phones: [
+    { label: "South Sudan", display: "+211 922 507 799", href: "tel:+211922507799" },
+    { label: "South Sudan", display: "+211 919 656 535", href: "tel:+211919656535" },
+    { label: "International", display: "+45 71 58 48 98", href: "tel:+4571584898" },
+  ],
+  whatsapp: {
+    personal: {
+      label: "Personal WhatsApp",
+      display: "+211 922 507 799",
+      href: "https://wa.me/211922507799",
+    },
+    business: {
+      label: "WhatsApp Business",
+      display: "+45 71 58 48 98",
+      href: "https://wa.me/4571584898",
+    },
+  },
   location: "Juba, South Sudan",
   title: "Student, Youth Leader & Digital Innovator",
   description:
     "Salva Aleu is an Industrial Chemistry student, youth leader and digital innovator working across sustainable development, technology and community-driven initiatives.",
 };
+
+export const socialProfiles = [
+  {
+    name: "LinkedIn",
+    handle: "salva-aleu",
+    href: "https://www.linkedin.com/in/salva-aleu",
+    description: "Professional updates, experience, projects and regional engagement.",
+  },
+  {
+    name: "Facebook",
+    handle: "salvaaleuw",
+    href: "https://www.facebook.com/salvaaleuw",
+    description: "Public updates, community activities and personal professional milestones.",
+  },
+  {
+    name: "Instagram",
+    handle: "salvaaleu",
+    href: "https://www.instagram.com/salvaaleu",
+    description: "Visual updates from projects, learning, travel and community work.",
+  },
+  {
+    name: "X",
+    handle: "@SalvaWol",
+    href: "https://x.com/SalvaWol",
+    description: "Short-form updates, ideas and conversations around my areas of interest.",
+  },
+  {
+    name: "WhatsApp Channel",
+    handle: "Follow channel",
+    href: "https://whatsapp.com/channel/0029Va8Wy4aFi8xlditaag3P",
+    description: "Direct updates and selected information shared through my public WhatsApp channel.",
+  },
+];
+
+export const education = [
+  {
+    years: "2011–2013",
+    institution: "Mayombiong Primary School",
+    qualification: "Primary 1–Primary 5",
+    description:
+      "I began my primary education at Mayombiong Primary School and progressed from Primary 1 to Primary 5 during this period.",
+    note:
+      "At the time, an accelerated adult-education programme was usually run from January to April before the regular academic year began. I completed Primary 1 and Primary 3 through that programme, which made it possible to complete two class levels within a single calendar year.",
+  },
+  {
+    years: "2014–2016",
+    institution: "Luonyaker Primary School",
+    qualification: "Primary 6–Primary 8",
+    description:
+      "I continued my primary education at Luonyaker Primary School, completing Primary 6 through Primary 8.",
+    note: null,
+  },
+  {
+    years: "2017–2021",
+    institution: "Marol Academy Secondary School",
+    qualification: "Secondary Education",
+    description:
+      "I completed my secondary-school education at Marol Academy Secondary School.",
+    note:
+      "Although the period spans five calendar years, I did not study during 2020, which interrupted the normal progression of my secondary education.",
+  },
+  {
+    years: "2023–Present",
+    institution: "University of Juba",
+    qualification: "Industrial Chemistry · School of Applied and Industrial Sciences",
+    description:
+      "I was admitted to the University of Juba in 2023. Lectures began on 19 February 2024, and I am currently a third-year student in the Department of Industrial Chemistry.",
+    note: null,
+  },
+  {
+    years: "2023–Present",
+    institution: "Indira Gandhi National Open University",
+    qualification: "Bachelor of Computer Applications · Online",
+    description:
+      "I was admitted in July 2023 to the online Bachelor of Computer Applications programme through e-VidyaBharati and e-AarogyaBharati (e-VBAB), an Indian government-funded programme facilitated through the Embassy of India in Juba. My studies began in October 2023.",
+    note:
+      "Progress has been interrupted by internet-access challenges in South Sudan and scheduling conflicts with my full-time studies at the University of Juba. I have missed some semester examinations and intend to complete the outstanding requirements.",
+  },
+];
 
 export const focusAreas = [
   {
