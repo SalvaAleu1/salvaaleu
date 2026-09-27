@@ -7,8 +7,10 @@ import { useEffect, useState } from "react";
 const nav = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
+  { href: "/education", label: "Education" },
   { href: "/work", label: "Work" },
   { href: "/leadership", label: "Leadership" },
+  { href: "/socials", label: "Socials" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -57,7 +59,7 @@ export function SiteHeader() {
               </Link>
             );
           })}
-          <a className="nav-contact" href="mailto:aleuwol12@gmail.com">
+          <a className="nav-contact" href="mailto:aleu@salvaaleu.com">
             Email me
           </a>
         </nav>
