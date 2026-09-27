@@ -41,3 +41,7 @@ Core public content is centralized in `lib/site-data.ts`. Additional photographs
 
 The current official portrait is the existing repository image:
 `Screenshot_20260709_094333_Drive.jpg`.
+
+## Verification
+
+Every push to `main` runs an automated type check and production build in GitHub Actions.
