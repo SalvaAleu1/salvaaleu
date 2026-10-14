@@ -107,6 +107,19 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="section dual-panel">
+        <div>
+          <p className="eyebrow">MY MISSION</p>
+          <h2>Expand opportunity through learning and action.</h2>
+          <p>To contribute to a future where young people have access to quality education, digital opportunities, leadership development and the resources to innovate and build sustainable communities.</p>
+        </div>
+        <div>
+          <p className="eyebrow">MY VISION</p>
+          <h2>Science and technology with a human purpose.</h2>
+          <p>To grow as a professional in science and technology while building impactful initiatives that create opportunities, strengthen communities and contribute to sustainable development.</p>
+        </div>
+      </section>
+
       <section className="section simple-cta">
         <h2>See what I&apos;m working on now.</h2>
         <Link className="button button-dark" href="/work">
