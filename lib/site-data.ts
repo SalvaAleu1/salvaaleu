@@ -32,6 +32,12 @@ export const site = {
 
 export const socialProfiles = [
   {
+    name: "GitHub",
+    handle: "SalvaAleu1",
+    href: "https://github.com/SalvaAleu1",
+    description: "Code repositories and selected digital projects.",
+  },
+  {
     name: "LinkedIn",
     handle: "salva-aleu",
     href: "https://www.linkedin.com/in/salva-aleu",
