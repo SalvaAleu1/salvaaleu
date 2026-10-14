@@ -185,6 +185,36 @@ export const projects = [
     href: null,
     cta: null,
   },
+  {
+    slug: "sawapay",
+    eyebrow: "Fintech concept · In development",
+    title: "SawaPay",
+    summary: "An early-stage fintech concept exploring accessible digital payment and financial technology services.",
+    detail: "The concept is being explored as a digital payments platform. It is presented here as a development-stage initiative, not as a launched or licensed financial service.",
+    result: "Concept and product development.",
+    href: null,
+    cta: null,
+  },
+  {
+    slug: "sawa-academy",
+    eyebrow: "Education technology · In development",
+    title: "Sawa Academy",
+    summary: "An educational technology initiative exploring digital learning and online course delivery.",
+    detail: "The project explores ways to make learning resources and technology-enabled education more accessible.",
+    result: "Product development.",
+    href: null,
+    cta: null,
+  },
+  {
+    slug: "sawa-market",
+    eyebrow: "Digital marketplace · In development",
+    title: "SawaMarket",
+    summary: "A marketplace concept designed to connect buyers and sellers through a digital platform.",
+    detail: "The concept focuses on making product discovery and seller visibility easier through a simple marketplace experience.",
+    result: "Product development.",
+    href: null,
+    cta: null,
+  },
 ];
 
 export const leadership = [
